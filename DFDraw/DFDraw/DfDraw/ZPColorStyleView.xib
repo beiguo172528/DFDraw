@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZPColorStyleView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSU-pF-o43" userLabel="white">
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="white:" destination="iN0-l3-epB" eventType="touchUpInside" id="7yu-1v-rZ5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaq-sJ-UUo" userLabel="red">
+                    <frame key="frameInset" minX="63" width="62" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="red:" destination="iN0-l3-epB" eventType="touchUpInside" id="CVV-V2-qrJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYe-ow-MIb" userLabel="yellow">
+                    <frame key="frameInset" minX="125" width="63" height="50"/>
+                    <color key="backgroundColor" red="0.80850434299999996" green="0.70444731388471948" blue="0.011106967397431566" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="yellow:" destination="iN0-l3-epB" eventType="touchUpInside" id="diT-ZM-94L"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUS-fc-A86" userLabel="blue">
+                    <frame key="frameInset" minX="188" width="62" height="50"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="blue:" destination="iN0-l3-epB" eventType="touchUpInside" id="BI2-8a-nRp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ns-ph-dqA" userLabel="black">
+                    <frame key="frameInset" minX="313" width="62" height="50"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="black:" destination="iN0-l3-epB" eventType="touchUpInside" id="T0M-Bc-84i"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9d-ya-cI6" userLabel="green">
+                    <color key="backgroundColor" red="0.12080106201905783" green="1" blue="0.13302592883118891" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="green:" destination="iN0-l3-epB" eventType="touchUpInside" id="YZM-Fr-m65"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="q9d-ya-cI6" firstAttribute="leading" secondItem="bUS-fc-A86" secondAttribute="trailing" id="08H-7l-4yY"/>
+                <constraint firstItem="jSU-pF-o43" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5sb-rL-BT9"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="width" secondItem="jSU-pF-o43" secondAttribute="width" id="9tZ-dt-5ua"/>
+                <constraint firstItem="5Ns-ph-dqA" firstAttribute="leading" secondItem="q9d-ya-cI6" secondAttribute="trailing" id="KH5-Pa-GAb"/>
+                <constraint firstAttribute="trailing" secondItem="5Ns-ph-dqA" secondAttribute="trailing" id="Kw1-1R-nii"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="height" secondItem="q9d-ya-cI6" secondAttribute="height" id="L7F-Le-sEu"/>
+                <constraint firstItem="jSU-pF-o43" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Qff-Fz-UaZ"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="width" secondItem="bUS-fc-A86" secondAttribute="width" id="SEj-N8-5jM"/>
+                <constraint firstItem="RYe-ow-MIb" firstAttribute="leading" secondItem="jaq-sJ-UUo" secondAttribute="trailing" id="SbP-f9-etm"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="height" secondItem="jSU-pF-o43" secondAttribute="height" id="THj-Z2-4Ua"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="width" secondItem="RYe-ow-MIb" secondAttribute="width" id="Tir-zu-Azt"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="height" secondItem="RYe-ow-MIb" secondAttribute="height" id="UB4-L0-wJ9"/>
+                <constraint firstItem="bUS-fc-A86" firstAttribute="leading" secondItem="RYe-ow-MIb" secondAttribute="trailing" id="Xzx-Qi-sDu"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="height" secondItem="5Ns-ph-dqA" secondAttribute="height" id="YWE-vG-guh"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="width" secondItem="5Ns-ph-dqA" secondAttribute="width" id="aLF-nY-292"/>
+                <constraint firstItem="5Ns-ph-dqA" firstAttribute="leading" secondItem="q9d-ya-cI6" secondAttribute="trailing" id="fiU-v5-x5I"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="leading" secondItem="jSU-pF-o43" secondAttribute="trailing" id="fzW-OV-DX3"/>
+                <constraint firstItem="q9d-ya-cI6" firstAttribute="leading" secondItem="bUS-fc-A86" secondAttribute="trailing" id="g6c-nX-aS0"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="height" secondItem="bUS-fc-A86" secondAttribute="height" id="grb-AS-FjC"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="leading" secondItem="jSU-pF-o43" secondAttribute="trailing" id="kaI-B8-r6B"/>
+                <constraint firstItem="bUS-fc-A86" firstAttribute="leading" secondItem="RYe-ow-MIb" secondAttribute="trailing" id="kjZ-wv-AQh"/>
+                <constraint firstItem="RYe-ow-MIb" firstAttribute="leading" secondItem="jaq-sJ-UUo" secondAttribute="trailing" id="mcM-E3-AUA"/>
+                <constraint firstAttribute="bottom" secondItem="jSU-pF-o43" secondAttribute="bottom" id="mfm-kW-Pdv"/>
+                <constraint firstItem="q9d-ya-cI6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pdr-Qz-NqT"/>
+                <constraint firstItem="jaq-sJ-UUo" firstAttribute="width" secondItem="q9d-ya-cI6" secondAttribute="width" id="rb3-2I-dyf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="512.5" y="457"/>
+        </view>
+    </objects>
+</document>

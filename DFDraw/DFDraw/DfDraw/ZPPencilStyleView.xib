@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.80000000000000004" contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZPPencilStyleView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="1" maxValue="9" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYf-BI-Yn1">
+                    <connections>
+                        <action selector="Didslide:" destination="iN0-l3-epB" eventType="valueChanged" id="nRR-m2-L3p"/>
+                    </connections>
+                </slider>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mYf-BI-Yn1" secondAttribute="trailing" id="CRI-Ph-S54"/>
+                <constraint firstItem="mYf-BI-Yn1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="QSG-yv-WGs"/>
+                <constraint firstAttribute="bottom" secondItem="mYf-BI-Yn1" secondAttribute="bottom" id="j4w-F1-ti3"/>
+                <constraint firstItem="mYf-BI-Yn1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pxw-hr-lpY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="151.5" y="19"/>
+        </view>
+    </objects>
+</document>
