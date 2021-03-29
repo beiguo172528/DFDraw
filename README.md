@@ -1,8 +1,4 @@
 部分功能如图：
-原图：
- ![img](https://github.com/beiguo172528/DFDraw/blob/main/img/111.jpeg)
- 
- 操作效果图：
  ![img](https://github.com/beiguo172528/DFDraw/blob/main/img/1C46FDDA-0DE0-4ADB-A063-E255BF36A7E2.png)
  ![img](https://github.com/beiguo172528/DFDraw/blob/main/img/CBC80614-3F6D-4F74-AAEA-0A72DB5BE3F1.png)
  ![img](https://github.com/beiguo172528/DFDraw/blob/main/img/E7A10C9D-3B8D-4100-9667-6010A42F7EE7.png)
