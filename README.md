@@ -1,3 +1,6 @@
+部分功能如图：
+
+ ![img](https://github.com/beiguo172528/DFDraw/blob/main/img/111.jpeg)
 功能:
 为了实现在app中，为已知图片为背景 在图上进行画图操作。可以选择线条粗细，及颜色。以及图片缩放等
 
