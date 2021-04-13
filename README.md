@@ -1,7 +1,5 @@
 部分功能如图：
- ![img](https://github.com/beiguo172528/DFDraw/blob/main/img/1C46FDDA-0DE0-4ADB-A063-E255BF36A7E2.png)
- ![img](https://github.com/beiguo172528/DFDraw/blob/main/img/CBC80614-3F6D-4F74-AAEA-0A72DB5BE3F1.png)
- ![img](https://github.com/beiguo172528/DFDraw/blob/main/img/E7A10C9D-3B8D-4100-9667-6010A42F7EE7.png)
+ ![img](https://github.com/beiguo172528/DFDraw/blob/main/img/dfdrawGif.gif)
  
 功能:
 为了实现在app中，为已知图片为背景 在图上进行画图操作。可以选择线条粗细，及颜色。以及图片缩放等
