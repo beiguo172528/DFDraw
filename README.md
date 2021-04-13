@@ -6,11 +6,17 @@
 
 
 步骤：
-1. 创建
-ImgDrawController *vc = [storyboard instantiateViewControllerWithIdentifier:@"ImgDrawController"];
+1.pod
+pod 'DFDraw'
+
+2.import
+#import "ImgDrawController.h"
+
+3. 创建
+ImgDrawController *vc = [[ImgDrawController alloc]initNib];
 
 2.加载图片
-[vc initWithImage:[UIImage imageNamed:@"111"]];
+[vc setDrawImage:[UIImage imageNamed:@"111"]];
 vc.delegate = self;
 
 3.显示
