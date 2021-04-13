@@ -1,0 +1,6 @@
+framework module DFDraw {
+  umbrella header "DFDraw-umbrella.h"
+
+  export *
+  module * { export * }
+}

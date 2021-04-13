@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="u9k-ua-lUr">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -17,14 +18,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sL-gU-m5U">
-                                <rect key="frame" x="184" y="832" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2NA-Pn-a6z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="点击编辑">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="onClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c8q-iO-gcT"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2go-Xo-YNX">
-                                <rect key="frame" x="0.0" y="88" width="414" height="744"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="111" translatesAutoresizingMaskIntoConstraints="NO" id="2go-Xo-YNX">
+                                <rect key="frame" x="0.0" y="88" width="414" height="724"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -34,6 +42,7 @@
                             <constraint firstItem="4sL-gU-m5U" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="9gE-cn-hbV"/>
                             <constraint firstItem="2go-Xo-YNX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BDi-w0-v98"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2go-Xo-YNX" secondAttribute="trailing" id="EFo-1T-myf"/>
+                            <constraint firstItem="4sL-gU-m5U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MxA-sj-3ta"/>
                             <constraint firstItem="4sL-gU-m5U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XmH-WC-5Dg"/>
                             <constraint firstItem="2go-Xo-YNX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lyC-dr-bfb"/>
                         </constraints>
@@ -67,6 +76,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="111" width="500" height="663"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
