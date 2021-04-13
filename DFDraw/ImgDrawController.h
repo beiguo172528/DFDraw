@@ -5,7 +5,6 @@
 //  Created by DOFAR on 2021/4/13.
 //
 
-#import "ViewController.h"
 #import <UIKit/UIKit.h>
 #import "ImgDrawView.h"
 
@@ -14,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)DrawImage: (UIImage * _Nullable)image;
 @end
 
-@interface ImgDrawController : ViewController<UIImagePickerControllerDelegate>
+@interface ImgDrawController : UIViewController<UIImagePickerControllerDelegate>
 {
     NSInteger DfState;
     NSInteger lineBarState;
