@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06C1CE1B6375FF574A518ECA /* Pods_DFDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5515F663353DCCA430E909E6 /* Pods_DFDraw.framework */; };
+		90049EE3FD172B6FAAB4D3D9 /* Pods_DFDrawTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F58CA6D516DB1E36F2378D1 /* Pods_DFDrawTests.framework */; };
 		C7E4ACA226254CDF00542D7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACA126254CDF00542D7C /* AppDelegate.m */; };
 		C7E4ACA526254CDF00542D7C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACA426254CDF00542D7C /* SceneDelegate.m */; };
 		C7E4ACA826254CDF00542D7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACA726254CDF00542D7C /* ViewController.m */; };
@@ -16,27 +18,7 @@
 		C7E4ACB326254CE000542D7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACB226254CE000542D7C /* main.m */; };
 		C7E4ACBD26254CE000542D7C /* DFDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACBC26254CE000542D7C /* DFDrawTests.m */; };
 		C7E4ACC826254CE000542D7C /* DFDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACC726254CE000542D7C /* DFDrawUITests.m */; };
-		C7E4ACFA26254D9600542D7C /* UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACDC26254D9600542D7C /* UIImage.m */; };
-		C7E4ACFB26254D9600542D7C /* draw_drag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACDE26254D9600542D7C /* draw_drag@2x.png */; };
-		C7E4ACFC26254D9600542D7C /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACDF26254D9600542D7C /* back@3x.png */; };
-		C7E4ACFD26254D9600542D7C /* ImgDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACE026254D9600542D7C /* ImgDrawController.m */; };
-		C7E4ACFE26254D9600542D7C /* draw_color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACE126254D9600542D7C /* draw_color@2x.png */; };
-		C7E4ACFF26254D9600542D7C /* draw_draw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACE226254D9600542D7C /* draw_draw@2x.png */; };
-		C7E4AD0026254D9600542D7C /* NSBundle+DFBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACE326254D9600542D7C /* NSBundle+DFBundle.m */; };
-		C7E4AD0126254D9600542D7C /* draw_drag_l@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACE526254D9600542D7C /* draw_drag_l@2x.png */; };
-		C7E4AD0226254D9600542D7C /* DrawPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACE726254D9600542D7C /* DrawPath.m */; };
-		C7E4AD0326254D9600542D7C /* ImgDrawController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACE926254D9600542D7C /* ImgDrawController.xib */; };
-		C7E4AD0426254D9600542D7C /* ZPColorStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACEA26254D9600542D7C /* ZPColorStyleView.m */; };
-		C7E4AD0526254D9600542D7C /* ZPPencilStyleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACEB26254D9600542D7C /* ZPPencilStyleView.xib */; };
-		C7E4AD0626254D9600542D7C /* DfImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACEC26254D9600542D7C /* DfImageView.m */; };
-		C7E4AD0726254D9600542D7C /* ZPColorStyleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACED26254D9600542D7C /* ZPColorStyleView.xib */; };
-		C7E4AD0826254D9600542D7C /* draw_undo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACEE26254D9600542D7C /* draw_undo@2x.png */; };
-		C7E4AD0926254D9600542D7C /* draw_draw_l@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACF026254D9600542D7C /* draw_draw_l@2x.png */; };
-		C7E4AD0A26254D9600542D7C /* draw_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACF226254D9600542D7C /* draw_line@2x.png */; };
-		C7E4AD0B26254D9600542D7C /* draw_save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACF326254D9600542D7C /* draw_save@2x.png */; };
-		C7E4AD0C26254D9600542D7C /* ImgDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACF426254D9600542D7C /* ImgDrawView.m */; };
-		C7E4AD0D26254D9600542D7C /* ZPPencilStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACF626254D9600542D7C /* ZPPencilStyleView.m */; };
-		C7E4AD0E26254D9600542D7C /* DfDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACF826254D9600542D7C /* DfDrawView.m */; };
+		DC1594AE5FEEABC075126183 /* Pods_DFDraw_DFDrawUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23688785D84CD2D760BE39D /* Pods_DFDraw_DFDrawUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F58CA6D516DB1E36F2378D1 /* Pods_DFDrawTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFDrawTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5515F663353DCCA430E909E6 /* Pods_DFDraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFDraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		617D8565E4CF01A523A5388B /* Pods-DFDraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFDraw.debug.xcconfig"; path = "Target Support Files/Pods-DFDraw/Pods-DFDraw.debug.xcconfig"; sourceTree = "<group>"; };
+		64CC8BB7A01375D29FF4962B /* Pods-DFDrawTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFDrawTests.debug.xcconfig"; path = "Target Support Files/Pods-DFDrawTests/Pods-DFDrawTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CD2E75BB21D3C248730615E /* Pods-DFDrawTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFDrawTests.release.xcconfig"; path = "Target Support Files/Pods-DFDrawTests/Pods-DFDrawTests.release.xcconfig"; sourceTree = "<group>"; };
 		C7E4AC9D26254CDF00542D7C /* DFDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E4ACA026254CDF00542D7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7E4ACA126254CDF00542D7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,36 +62,10 @@
 		C7E4ACC326254CE000542D7C /* DFDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E4ACC726254CE000542D7C /* DFDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFDrawUITests.m; sourceTree = "<group>"; };
 		C7E4ACC926254CE000542D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7E4ACDC26254D9600542D7C /* UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImage.m; sourceTree = "<group>"; };
-		C7E4ACDD26254D9600542D7C /* DfImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DfImageView.h; sourceTree = "<group>"; };
-		C7E4ACDE26254D9600542D7C /* draw_drag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draw_drag@2x.png"; sourceTree = "<group>"; };
-		C7E4ACDF26254D9600542D7C /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
-		C7E4ACE026254D9600542D7C /* ImgDrawController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgDrawController.m; sourceTree = "<group>"; };
-		C7E4ACE126254D9600542D7C /* draw_color@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draw_color@2x.png"; sourceTree = "<group>"; };
-		C7E4ACE226254D9600542D7C /* draw_draw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draw_draw@2x.png"; sourceTree = "<group>"; };
-		C7E4ACE326254D9600542D7C /* NSBundle+DFBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+DFBundle.m"; sourceTree = "<group>"; };
-		C7E4ACE426254D9600542D7C /* ZPPencilStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPPencilStyleView.h; sourceTree = "<group>"; };
-		C7E4ACE526254D9600542D7C /* draw_drag_l@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draw_drag_l@2x.png"; sourceTree = "<group>"; };
-		C7E4ACE626254D9600542D7C /* ImgDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgDrawView.h; sourceTree = "<group>"; };
-		C7E4ACE726254D9600542D7C /* DrawPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPath.m; sourceTree = "<group>"; };
-		C7E4ACE826254D9600542D7C /* DfDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DfDrawView.h; sourceTree = "<group>"; };
-		C7E4ACE926254D9600542D7C /* ImgDrawController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImgDrawController.xib; sourceTree = "<group>"; };
-		C7E4ACEA26254D9600542D7C /* ZPColorStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPColorStyleView.m; sourceTree = "<group>"; };
-		C7E4ACEB26254D9600542D7C /* ZPPencilStyleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPPencilStyleView.xib; sourceTree = "<group>"; };
-		C7E4ACEC26254D9600542D7C /* DfImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DfImageView.m; sourceTree = "<group>"; };
-		C7E4ACED26254D9600542D7C /* ZPColorStyleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPColorStyleView.xib; sourceTree = "<group>"; };
-		C7E4ACEE26254D9600542D7C /* draw_undo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draw_undo@2x.png"; sourceTree = "<group>"; };
-		C7E4ACEF26254D9600542D7C /* UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImage.h; sourceTree = "<group>"; };
-		C7E4ACF026254D9600542D7C /* draw_draw_l@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draw_draw_l@2x.png"; sourceTree = "<group>"; };
-		C7E4ACF126254D9600542D7C /* ImgDrawController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgDrawController.h; sourceTree = "<group>"; };
-		C7E4ACF226254D9600542D7C /* draw_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draw_line@2x.png"; sourceTree = "<group>"; };
-		C7E4ACF326254D9600542D7C /* draw_save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draw_save@2x.png"; sourceTree = "<group>"; };
-		C7E4ACF426254D9600542D7C /* ImgDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgDrawView.m; sourceTree = "<group>"; };
-		C7E4ACF526254D9600542D7C /* NSBundle+DFBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+DFBundle.h"; sourceTree = "<group>"; };
-		C7E4ACF626254D9600542D7C /* ZPPencilStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPPencilStyleView.m; sourceTree = "<group>"; };
-		C7E4ACF726254D9600542D7C /* ZPColorStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPColorStyleView.h; sourceTree = "<group>"; };
-		C7E4ACF826254D9600542D7C /* DfDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DfDrawView.m; sourceTree = "<group>"; };
-		C7E4ACF926254D9600542D7C /* DrawPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPath.h; sourceTree = "<group>"; };
+		D86C78D6AEAF46C10E7A3190 /* Pods-DFDraw-DFDrawUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFDraw-DFDrawUITests.debug.xcconfig"; path = "Target Support Files/Pods-DFDraw-DFDrawUITests/Pods-DFDraw-DFDrawUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F5F0296F44A8032724F7CB /* Pods-DFDraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFDraw.release.xcconfig"; path = "Target Support Files/Pods-DFDraw/Pods-DFDraw.release.xcconfig"; sourceTree = "<group>"; };
+		E23688785D84CD2D760BE39D /* Pods_DFDraw_DFDrawUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFDraw_DFDrawUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F4F7EA0C117832879599E /* Pods-DFDraw-DFDrawUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFDraw-DFDrawUITests.release.xcconfig"; path = "Target Support Files/Pods-DFDraw-DFDrawUITests/Pods-DFDraw-DFDrawUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C1CE1B6375FF574A518ECA /* Pods_DFDraw.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90049EE3FD172B6FAAB4D3D9 /* Pods_DFDrawTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1594AE5FEEABC075126183 /* Pods_DFDraw_DFDrawUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC0F26C620DE81A9D2B6A95B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				617D8565E4CF01A523A5388B /* Pods-DFDraw.debug.xcconfig */,
+				D9F5F0296F44A8032724F7CB /* Pods-DFDraw.release.xcconfig */,
+				D86C78D6AEAF46C10E7A3190 /* Pods-DFDraw-DFDrawUITests.debug.xcconfig */,
+				F21F4F7EA0C117832879599E /* Pods-DFDraw-DFDrawUITests.release.xcconfig */,
+				64CC8BB7A01375D29FF4962B /* Pods-DFDrawTests.debug.xcconfig */,
+				8CD2E75BB21D3C248730615E /* Pods-DFDrawTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C7E4AC9426254CDF00542D7C = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +116,8 @@
 				C7E4ACBB26254CE000542D7C /* DFDrawTests */,
 				C7E4ACC626254CE000542D7C /* DFDrawUITests */,
 				C7E4AC9E26254CDF00542D7C /* Products */,
+				AC0F26C620DE81A9D2B6A95B /* Pods */,
+				CCBBDC916C40607DD60C7E4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,7 +134,6 @@
 		C7E4AC9F26254CDF00542D7C /* DFDraw */ = {
 			isa = PBXGroup;
 			children = (
-				C7E4ACDB26254D9600542D7C /* DFDraw */,
 				C7E4ACA026254CDF00542D7C /* AppDelegate.h */,
 				C7E4ACA126254CDF00542D7C /* AppDelegate.m */,
 				C7E4ACA326254CDF00542D7C /* SceneDelegate.h */,
@@ -189,42 +167,14 @@
 			path = DFDrawUITests;
 			sourceTree = "<group>";
 		};
-		C7E4ACDB26254D9600542D7C /* DFDraw */ = {
+		CCBBDC916C40607DD60C7E4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C7E4ACDF26254D9600542D7C /* back@3x.png */,
-				C7E4ACE826254D9600542D7C /* DfDrawView.h */,
-				C7E4ACF826254D9600542D7C /* DfDrawView.m */,
-				C7E4ACDD26254D9600542D7C /* DfImageView.h */,
-				C7E4ACEC26254D9600542D7C /* DfImageView.m */,
-				C7E4ACE126254D9600542D7C /* draw_color@2x.png */,
-				C7E4ACE526254D9600542D7C /* draw_drag_l@2x.png */,
-				C7E4ACDE26254D9600542D7C /* draw_drag@2x.png */,
-				C7E4ACF026254D9600542D7C /* draw_draw_l@2x.png */,
-				C7E4ACE226254D9600542D7C /* draw_draw@2x.png */,
-				C7E4ACF226254D9600542D7C /* draw_line@2x.png */,
-				C7E4ACF326254D9600542D7C /* draw_save@2x.png */,
-				C7E4ACEE26254D9600542D7C /* draw_undo@2x.png */,
-				C7E4ACF926254D9600542D7C /* DrawPath.h */,
-				C7E4ACE726254D9600542D7C /* DrawPath.m */,
-				C7E4ACF126254D9600542D7C /* ImgDrawController.h */,
-				C7E4ACE026254D9600542D7C /* ImgDrawController.m */,
-				C7E4ACE926254D9600542D7C /* ImgDrawController.xib */,
-				C7E4ACE626254D9600542D7C /* ImgDrawView.h */,
-				C7E4ACF426254D9600542D7C /* ImgDrawView.m */,
-				C7E4ACF526254D9600542D7C /* NSBundle+DFBundle.h */,
-				C7E4ACE326254D9600542D7C /* NSBundle+DFBundle.m */,
-				C7E4ACEF26254D9600542D7C /* UIImage.h */,
-				C7E4ACDC26254D9600542D7C /* UIImage.m */,
-				C7E4ACF726254D9600542D7C /* ZPColorStyleView.h */,
-				C7E4ACEA26254D9600542D7C /* ZPColorStyleView.m */,
-				C7E4ACED26254D9600542D7C /* ZPColorStyleView.xib */,
-				C7E4ACE426254D9600542D7C /* ZPPencilStyleView.h */,
-				C7E4ACF626254D9600542D7C /* ZPPencilStyleView.m */,
-				C7E4ACEB26254D9600542D7C /* ZPPencilStyleView.xib */,
+				5515F663353DCCA430E909E6 /* Pods_DFDraw.framework */,
+				E23688785D84CD2D760BE39D /* Pods_DFDraw_DFDrawUITests.framework */,
+				0F58CA6D516DB1E36F2378D1 /* Pods_DFDrawTests.framework */,
 			);
-			name = DFDraw;
-			path = ../../DFDraw;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7E4ACCC26254CE000542D7C /* Build configuration list for PBXNativeTarget "DFDraw" */;
 			buildPhases = (
+				9034EAD51B6549203AA0117F /* [CP] Check Pods Manifest.lock */,
 				C7E4AC9926254CDF00542D7C /* Sources */,
 				C7E4AC9A26254CDF00542D7C /* Frameworks */,
 				C7E4AC9B26254CDF00542D7C /* Resources */,
+				990D704A8A32F41ACA1CF451 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7E4ACCF26254CE000542D7C /* Build configuration list for PBXNativeTarget "DFDrawTests" */;
 			buildPhases = (
+				08FB51D36E633D7022430E97 /* [CP] Check Pods Manifest.lock */,
 				C7E4ACB426254CE000542D7C /* Sources */,
 				C7E4ACB526254CE000542D7C /* Frameworks */,
 				C7E4ACB626254CE000542D7C /* Resources */,
@@ -269,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7E4ACD226254CE000542D7C /* Build configuration list for PBXNativeTarget "DFDrawUITests" */;
 			buildPhases = (
+				00DE6C2711987CBC608FB000 /* [CP] Check Pods Manifest.lock */,
 				C7E4ACBF26254CE000542D7C /* Sources */,
 				C7E4ACC026254CE000542D7C /* Frameworks */,
 				C7E4ACC126254CE000542D7C /* Resources */,
+				8B566C62EB573B3D0B211074 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,19 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E4ACFE26254D9600542D7C /* draw_color@2x.png in Resources */,
-				C7E4ACFC26254D9600542D7C /* back@3x.png in Resources */,
-				C7E4ACFF26254D9600542D7C /* draw_draw@2x.png in Resources */,
-				C7E4AD0526254D9600542D7C /* ZPPencilStyleView.xib in Resources */,
-				C7E4AD0B26254D9600542D7C /* draw_save@2x.png in Resources */,
-				C7E4AD0A26254D9600542D7C /* draw_line@2x.png in Resources */,
-				C7E4AD0726254D9600542D7C /* ZPColorStyleView.xib in Resources */,
-				C7E4ACFB26254D9600542D7C /* draw_drag@2x.png in Resources */,
-				C7E4AD0326254D9600542D7C /* ImgDrawController.xib in Resources */,
 				C7E4ACB026254CE000542D7C /* LaunchScreen.storyboard in Resources */,
-				C7E4AD0926254D9600542D7C /* draw_draw_l@2x.png in Resources */,
-				C7E4AD0826254D9600542D7C /* draw_undo@2x.png in Resources */,
-				C7E4AD0126254D9600542D7C /* draw_drag_l@2x.png in Resources */,
 				C7E4ACAD26254CE000542D7C /* Assets.xcassets in Resources */,
 				C7E4ACAB26254CDF00542D7C /* Main.storyboard in Resources */,
 			);
@@ -363,24 +306,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00DE6C2711987CBC608FB000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DFDraw-DFDrawUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08FB51D36E633D7022430E97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DFDrawTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B566C62EB573B3D0B211074 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DFDraw-DFDrawUITests/Pods-DFDraw-DFDrawUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DFDraw-DFDrawUITests/Pods-DFDraw-DFDrawUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DFDraw-DFDrawUITests/Pods-DFDraw-DFDrawUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9034EAD51B6549203AA0117F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DFDraw-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		990D704A8A32F41ACA1CF451 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DFDraw/Pods-DFDraw-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DFDraw/Pods-DFDraw-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DFDraw/Pods-DFDraw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7E4AC9926254CDF00542D7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E4AD0226254D9600542D7C /* DrawPath.m in Sources */,
 				C7E4ACA826254CDF00542D7C /* ViewController.m in Sources */,
 				C7E4ACA226254CDF00542D7C /* AppDelegate.m in Sources */,
-				C7E4AD0D26254D9600542D7C /* ZPPencilStyleView.m in Sources */,
-				C7E4AD0C26254D9600542D7C /* ImgDrawView.m in Sources */,
-				C7E4AD0426254D9600542D7C /* ZPColorStyleView.m in Sources */,
-				C7E4ACFA26254D9600542D7C /* UIImage.m in Sources */,
 				C7E4ACB326254CE000542D7C /* main.m in Sources */,
 				C7E4ACA526254CDF00542D7C /* SceneDelegate.m in Sources */,
-				C7E4ACFD26254D9600542D7C /* ImgDrawController.m in Sources */,
-				C7E4AD0E26254D9600542D7C /* DfDrawView.m in Sources */,
-				C7E4AD0626254D9600542D7C /* DfImageView.m in Sources */,
-				C7E4AD0026254D9600542D7C /* NSBundle+DFBundle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,11 +586,12 @@
 		};
 		C7E4ACCD26254CE000542D7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617D8565E4CF01A523A5388B /* Pods-DFDraw.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZUYU68XH82;
+				DEVELOPMENT_TEAM = 83P65L9Z7S;
 				INFOPLIST_FILE = DFDraw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -568,11 +606,12 @@
 		};
 		C7E4ACCE26254CE000542D7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F5F0296F44A8032724F7CB /* Pods-DFDraw.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZUYU68XH82;
+				DEVELOPMENT_TEAM = 83P65L9Z7S;
 				INFOPLIST_FILE = DFDraw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -587,6 +626,7 @@
 		};
 		C7E4ACD026254CE000542D7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CC8BB7A01375D29FF4962B /* Pods-DFDrawTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -607,6 +647,7 @@
 		};
 		C7E4ACD126254CE000542D7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD2E75BB21D3C248730615E /* Pods-DFDrawTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -627,6 +668,7 @@
 		};
 		C7E4ACD326254CE000542D7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86C78D6AEAF46C10E7A3190 /* Pods-DFDraw-DFDrawUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUYU68XH82;
@@ -645,6 +687,7 @@
 		};
 		C7E4ACD426254CE000542D7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21F4F7EA0C117832879599E /* Pods-DFDraw-DFDrawUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUYU68XH82;

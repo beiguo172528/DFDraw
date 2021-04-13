@@ -1,0 +1,16 @@
+PODS:
+  - DFDraw (0.0.3)
+
+DEPENDENCIES:
+  - DFDraw
+
+SPEC REPOS:
+  trunk:
+    - DFDraw
+
+SPEC CHECKSUMS:
+  DFDraw: 9eb187cb7738ee9cdbd5e66e66769d76b792f9cf
+
+PODFILE CHECKSUM: e08bb9df7594f6adfd906dc28808a4f88fb0fd43
+
+COCOAPODS: 1.9.3
